@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="my_background_color">#FF000000</color>
+    <color name="my_text_color">#FFFFFF</color>
+    <color name="follow">#038DFF</color>
+    <color name="message">#535A5F</color>
+</resources>
