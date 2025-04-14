@@ -1,0 +1,255 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/background_dark">
+
+    <!-- Foto Profil -->
+    <!-- Button Simpan -->
+
+
+    <!-- Tombol edit foto -->
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:background="@drawable/circle_background"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/editPhotoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit foto atau avatar"
+        android:textColor="#3399FF"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/photo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/editPhotoText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/editPhotoText"
+            tools:layout_editor_absoluteX="16dp">
+
+
+            <!-- Item: Nama -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:textColor="#AAAAAA"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Masukkan nama"
+                android:inputType="textPersonName"
+                android:text="Nur fadillah nastura"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic" />
+
+            <!-- Item: Nama pengguna -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dp"
+                android:text="Nama pengguna"
+                android:textColor="#AAAAAA"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Masukkan username"
+                android:inputType="text"
+                android:text="fadillanstura_"
+                android:textColor="#FFFFFF" />
+
+            <!-- Item: Kata ganti -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dp"
+                android:text="Kata ganti"
+                android:textColor="#AAAAAA"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editPronoun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="she/her"
+                android:inputType="text"
+                android:textColor="#FFFFFF" />
+
+            <!-- Item: Bio -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dp"
+                android:text="Bio"
+                android:textColor="#AAAAAA"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editBio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Bio"
+                android:inputType="textMultiLine"
+                android:maxLines="3"
+
+                android:textColor="#FFFFFF" />
+
+            <!-- Item dengan panah: Tautan -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dp"
+                android:text="Tautan"
+                android:textColor="#AAAAAA"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Tambahkan tautan"
+                android:inputType="textUri"
+                android:textColor="#FFFFFF" />
+
+            <!-- Banner -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dp"
+                android:text="Banner"
+                android:textColor="#AAAAAA"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editBanner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Tambahkan spanduk"
+                android:inputType="text"
+                android:textColor="#FFFFFF" />
+
+            <!-- Musik -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dp"
+                android:text="Musik"
+                android:textColor="#AAAAAA"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editMusic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Tambahkan musik ke profil Anda"
+                android:inputType="text"
+                android:textColor="#FFFFFF" />
+
+            <!-- Jenis Kelamin -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dp"
+                android:text="Jenis kelamin"
+                android:textColor="#AAAAAA"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Perempuan"
+                android:inputType="text"
+                android:text="Perempuan"
+                android:textColor="#FFFFFF" />
+
+            <!-- Separator -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginVertical="16dp"
+                android:background="#333333" />
+
+            <!-- Menu: akun profesional -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="12dp"
+                android:text="Beralih ke akun profesional"
+                android:textColor="#3399FF"
+                android:textSize="14sp" />
+
+            <!-- Menu: pengaturan -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="12dp"
+                android:text="Pengaturan informasi pribadi"
+                android:textColor="#3399FF"
+                android:textSize="14sp" />
+
+            <!-- Menu: verifikasi -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="12dp"
+                android:text="Tampilkan bahwa profil Anda sudah diverifikasi"
+                android:textColor="#3399FF"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
