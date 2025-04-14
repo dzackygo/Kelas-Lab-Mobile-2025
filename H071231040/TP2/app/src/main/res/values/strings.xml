@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TP2</string>
+    <string name="followers">100 Followers</string>
+    <string name="following">100 Following</string>
+    <string name="name">Abraham Lincoln</string>
+    <string name="username">Lincoln12</string>
+    <string name="joinedDate">Joined December 2020</string>
+    <string name="add_friend">ADD FRIEND</string>
+    <string name="upload_button">Upload content</string>
+    <string name="ringkasanTitle">Ringkasan</string>
+    <string name="streak">Runtunan Harian</string>
+    <string name="streakPoint">75</string>
+    <string name="xp">Total XP</string>
+    <string name="xpPoint">99999</string>
+    <string name="league">Liga saat ini</string>
+    <string name="leagueTitle">Legend</string>
+    <string name="score">Skor Bahasa Inggris</string>
+    <string name="scorePoint">99</string>
+    <string name="pencapaianTitle">Pencapaian</string>
+    <string name="lihat_semua">LIHAT SEMUA</string>
+    <string name="edit">Edit</string>
+    <string name="profilTitle">Profil</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="change_avatar_btn">CHANGE AVATAR</string>
+    <string name="Back">Back</string>
+</resources>
