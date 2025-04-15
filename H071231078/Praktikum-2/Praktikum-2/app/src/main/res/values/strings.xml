@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TP1-Mobile</string>
+    <string name="profile_views_value">1,120</string>
+    <string-array name="gender_options">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+    <string name="spinner_gender_prompt">Pilih Gender</string>
+</resources>
